@@ -25,6 +25,9 @@ impl fmt::Display for BeanstalkcError {
 }
 
 impl Error for BeanstalkcError {
+    fn description(&self) -> &str {
+        ""
+    }
 }
 
 impl From<IoError> for BeanstalkcError {
