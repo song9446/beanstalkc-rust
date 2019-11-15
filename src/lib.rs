@@ -42,6 +42,7 @@
 //! ```
 pub use crate::beanstalkc::Beanstalkc;
 pub use crate::job::Job;
+pub use crate::error::BeanstalkcError; 
 
 mod beanstalkc;
 mod command;
